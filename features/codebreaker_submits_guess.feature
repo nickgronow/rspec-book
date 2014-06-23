@@ -11,7 +11,7 @@ Feature: code-breaker submits guess
   Scenario Outline: submit guess
     Given the secret code is "<code>"
     When I guess "<guess>"
-    Then the mark should be "<guess>"
+    Then the mark should be "<mark>"
 
     Scenarios: no matches
       | code | guess | mark |
